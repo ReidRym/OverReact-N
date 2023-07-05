@@ -1,6 +1,6 @@
 import React from "react";
-import { Parallax,Background } from 'react-parallax';
-import Ryanpix from "../images/IMG-1313.JPG";
+import { Parallax, Background } from 'react-parallax';
+import Ryanpix from "../images/IMG-1313.JPG"; 
 const Portfolio = () => {
   return (
     //insert titled images of six of applications with links to both the deployed applications and the corresponding GitHub repository

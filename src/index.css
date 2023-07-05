@@ -27,3 +27,23 @@ code {
   display: flex;
   justify-content: space-between;
 }
+
+.Resume{
+  text-align: center;
+}
+
+.Resume .text-wrapper{
+  padding: 20px;
+  margin-top: 120px;
+  display: inline-block;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.Resume .text-wrapper h1{
+  color: whitesmoke;
+  display: inline-block;
+  background-color: blue;
+  padding: 10px 20px;
+ 
+}
