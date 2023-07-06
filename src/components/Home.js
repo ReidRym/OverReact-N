@@ -1,22 +1,19 @@
 import React from "react";
-import { Parallax,Background } from 'react-parallax';
-import Ryanpix from "../images/IMG-1313.JPG";
-const Home = () => {
+import bgImage from "../video/space4.mp4";
+function Home() {
+
   return (
-    <div>
- <Parallax
-        blur={{ min: -15, max: 15 }}
-        bgImage={Ryanpix}
-        bgImageAlt=""
-        strength={-200}
-    >
-     <h2>this is home page</h2> 
-     <div style={{ height: '700px' }} />
-    </Parallax>
+    <div className="Home">
+      <video autoPlay loop muted>
+        <source src={bgImage} type="video/mp4" />
 
-
-    </div>
+      </video>
+      <div className=" home text-wrapper">
+<h1>Resume with back ground video</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nisi voluptatem. Aspernatur eius in quibusdam, expedita ab, ratione at deserunt dicta cupiditate impedit amet facere, fugiat inventore possimus corporis eaque!</p>
+ </div>
+</div>
   );
-};
+}
 
 export default Home;
