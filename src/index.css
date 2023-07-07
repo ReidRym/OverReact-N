@@ -1,24 +1,22 @@
 body {
+  min-height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-.contactPix{
+
+.contactPix {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  
-
 }
-.contact-Form{
+
+.contact-Form {
   color: whitesmoke;
   display: flex;
   width: 300px;
@@ -27,24 +25,21 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
-  margin:10%;
- 
+  margin: 10%;
 }
 
-.navFlex{
+.navFlex {
   display: flex;
   justify-content: space-between;
 }
 
-
-
-
-.Resume{
+.Resume,
+.Home {
   text-align: center;
 }
 
-.Resume .text-wrapper{
+.Resume .text-wrapper,
+.Home .text-wrapper {
   padding: 20px;
   margin-top: 120px;
   display: inline-block;
@@ -52,93 +47,74 @@ code {
   border-radius: 5px;
 }
 
-.Resume .text-wrapper h1{
+.Resume .text-wrapper h1,
+.Home .text-wrapper h1 {
   color: whitesmoke;
   display: inline-block;
   background-color: rgba(2, 69, 130, 0.64);
   padding: 10px 20px;
- }
-
- .Resume .text-wrapper p {
-color: whitesmoke;
-width: 400px;
-padding: 10px 20px;
-margin-left: auto;
-margin-right: auto;
-font-size: 18px;
-text-align: left;
- }
- .Resume video{
-  object-fit: cover;
-position: absolute;
-z-index: -1;
-top: 0;
-left: 0;
-width: 100%;
-height: 100vh;
- }
-
-
- 
- .Home{
-  text-align: center;
 }
 
-.Home .text-wrapper{
-  padding: 20px;
-  margin-top: 120px;
-  display: inline-block;
-  border: 10px solid whitesmoke;
-  border-radius: 5px;
-}
-
-.Home .text-wrapper h1{
+.Resume .text-wrapper p,
+.Home .text-wrapper p {
   color: whitesmoke;
-  display: inline-block;
-  background-color: rgba(2, 69, 130, 0.64);
+  width: 400px;
   padding: 10px 20px;
- }
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: left;
+}
 
- .Home .text-wrapper p {
-color: whitesmoke;
-width: 400px;
-padding: 10px 20px;
-margin-left: auto;
-margin-right: auto;
-font-size: 18px;
-text-align: left;
- }
- .Home video{
+.Resume video,
+.Home video {
   object-fit: cover;
-position: absolute;
-z-index: -1;
-top: 0;
-left: 0;
-width: 100%;
-height: 100vh;
- }
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
 
- 
+.footy {
+  object-fit: cover;
+  position: fixed;
+  bottom: 0;
+}
 
- .footy {
-  background-image: url("#");
-  background-repeat: no-repeat;
-  background-size: cover;
-
- }
-
-.footy li {
-  margin: 0 5px;
-  }
-
-.footy li span{
+.footy a {
+  color: white;
+  text-decoration: none;
   font-size: 2.5rem;
 }
 
+.footy li {
+  display: inline-grid;
+  margin: 0 5px;
+}
+
+.footy li span {
+  font-size: 2.5rem;
+}
+
+.bio-pic-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 30px;
+  padding: 5%;
+  background-color: black;
+  color: whitesmoke;
+  border: 10px solid gray;
+  border-radius: 5px;
+}
+
+.bioHeader {
+  text-align: center;
+  font-size: 50px;
+  color: whitesmoke;
+}
 
 
 
-
-
- 
-  

@@ -1,20 +1,23 @@
 import React from "react";
-import bgImage from "../video/space4.mp4";
+import { Parallax, Background } from "react-parallax";
+import Ryanpix from "../images/pix2.JPG";
 function Resume() {
-
   return (
-    <div className="Resume">
-      <video autoPlay loop muted>
-        <source src={bgImage} type="video/mp4" />
+    <div>
+      <Parallax
+        blur={{ min: -15, max: 15 }}
+        bgImage={Ryanpix}
+        bgImageAlt=""
+        strength={-200}
+      >
+        <h2>Resume</h2>
 
-      </video>
-      <div className="text-wrapper">
-<h1>Resume with back ground video</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nisi voluptatem. Aspernatur eius in quibusdam, expedita ab, ratione at deserunt dicta cupiditate impedit amet facere, fugiat inventore possimus corporis eaque!</p>
- </div>
-</div>
+        {/* content */}
+
+        <div style={{ height: "700px" }} />
+      </Parallax>
+    </div>
   );
 }
 
 export default Resume;
-      

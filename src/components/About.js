@@ -1,25 +1,41 @@
 import React from "react";
-
+import { Parallax, Background } from 'react-parallax';
+import Ryanpix from "../images/pix1.JPG"; 
+import BioPic from "../images/IMG-1313.JPG";
 const About = () => {
   return (
     
-      <div className="card mb-3">
-  <h3 className="card-header">Card header</h3>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <h6 className="card-subtitle text-muted">Support card subtitle</h6>
+
+    <div>
+    
+    <div className="biopicture">
+    <Parallax
+        blur={{ min: -15, max: 15 }}
+        bgImage={Ryanpix}
+        bgImageAlt=""
+        strength={-200}
+        
+    >
+      <h2 className="bio">BIO</h2>
+
+{/* content */}
+<div className="card">
+  <div className="card-header">
+    About Me
   </div>
-  {/* <svg xmlns="http://www.w3.org/2000/svg" className="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-    <rect width="100%" height="100%" fill="#868e96"></rect>
-    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-  </svg> */}
   <div className="card-body">
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div className="bio-pic-container">
+      <img src={BioPic} alt="bio-pic" />
+      <p>I am a full stack web developer with a passion for creating innovative and user-friendly web applications. I have a background in Curiculum Developement and Corrections and have recently completed a full stack web development bootcamp. I am excited to use my skills to create applications that will make a difference in people's lives.</p>
+    </div>
   </div>
-      
+</div>
+
+        <div style={{ height: '10px' }} />
+    </Parallax>
+    </div>
     </div>
   );
 };
 
 export default About;
-// insert a recent photo or avatar of the developer and a short bio about me.
