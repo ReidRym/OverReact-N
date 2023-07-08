@@ -21,7 +21,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <span>
-                <i class="bi bi-github" size="32" color="blue"></i> GitHub
+                <i className="bi bi-github" size="32" color="blue"></i> GitHub
               </span>
             </a>
           </li>
@@ -32,7 +32,8 @@ function Footer() {
               rel="nofollow noopener noreferrer"
             >
               <span>
-                <i class="bi bi-facebook" size="32" color="blue"></i>Facebook
+                <i className="bi bi-facebook" size="32" color="blue"></i>
+                Facebook
               </span>
             </a>
           </li>
@@ -43,7 +44,7 @@ function Footer() {
               rel="nofollow noopener noreferrer"
             >
               <span>
-                <i class="bi bi-twitter" size="32" color="blue"></i>Twitter
+                <i className="bi bi-twitter" size="32" color="blue"></i>Twitter
               </span>
             </a>
           </li>
@@ -55,7 +56,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <span>
-                <i class="bi bi-linkedin" size="32" color="blue"></i>
+                <i className="bi bi-linkedin" size="32" color="blue"></i>
                 LikedIn
               </span>
             </a>
