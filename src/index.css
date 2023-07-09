@@ -174,3 +174,54 @@ button:active {
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
+.biopicture {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  padding: 5%;
+  border: 10px solid gray;
+  border-radius: 5px;
+}
+
+.card {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  padding: 5%;
+  border: 10px solid gray;
+  border-radius: 5px;
+}
+
+.card-header {
+  font-size: 50px;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+}
+
+.card-body {
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+}
+
+.bio-pic-container img {
+  width: 300px;
+  height: 300px;
+  border: 3px solid gray;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 50px) {
+  .bio-pic-container img {
+    width: 200px;
+    height: 200px;
+  }
+}
