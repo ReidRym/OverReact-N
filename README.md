@@ -16,8 +16,6 @@ The Resume section will contain a link to a downloadable resume and a list of th
 Explore the depths of space with the help of this React portfolio and find the perfect candidate for your next space adventure!
 
 
-
-
 ## Table of Contents
 
 * [TITLE](#title)
@@ -29,10 +27,6 @@ Explore the depths of space with the help of this React portfolio and find the p
 * [CONTACT](#contact)
 * [GITHUB](#github)
 * [EMAIL](#email)
-
-
-
-
 
 ## Installation
 
@@ -59,13 +53,39 @@ The About Me section will include a recent photo or avatar of the developer and 
 
 Start exploring the universe of space adventure with the React Portfolio today!
 
-
 ## license
 MIT
 
-
-
 ## Features  
+
+VIDEO LINK:
+
+https://drive.google.com/file/d/1wRjYVPzsJkjR-yCK8tYDw-eFBpDEx_Qt/view
+
+IMAGES:
+
+#1 Image
+
+![1port](https://github.com/ReidRym/OverReact-N/assets/123789106/c18f48f4-4a48-4036-8bc4-39c289d7062b)
+
+#2 Image
+
+![2port](https://github.com/ReidRym/OverReact-N/assets/123789106/5c6e63b3-6668-402d-b558-6ae60e9d4065)
+
+#3 Image
+
+![3port](https://github.com/ReidRym/OverReact-N/assets/123789106/a545a966-7bc1-4e74-87df-8b32350c5fbc)
+
+#4 Image
+
+![4port](https://github.com/ReidRym/OverReact-N/assets/123789106/a28f2f26-96c8-4b83-acda-76e207bcb37d)
+
+#5 Image
+
+![5port](https://github.com/ReidRym/OverReact-N/assets/123789106/f136bb72-f1a0-4ccc-ac4a-fc14b242e2d5)
+
+
+
 
 Welcome to the future of space exploration! With the React Portfolio, you can showcase your projects and skills to employers and fellow developers alike.
 
