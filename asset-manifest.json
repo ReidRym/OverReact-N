@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/OverReact-N/static/css/main.af1c32c4.css",
+    "main.js": "/OverReact-N/static/js/main.176499c1.js",
+    "static/js/787.dd76e75e.chunk.js": "/OverReact-N/static/js/787.dd76e75e.chunk.js",
+    "static/media/space4.mp4": "/OverReact-N/static/media/space4.14cc2c3d938d5db0a3b8.mp4",
+    "static/media/pix3.JPG": "/OverReact-N/static/media/pix3.1caeb6e9d5c95b37e0cc.JPG",
+    "static/media/pix2.JPG": "/OverReact-N/static/media/pix2.430017e88543469ea1c5.JPG",
+    "static/media/pix1.JPG": "/OverReact-N/static/media/pix1.d202b91ca37c942abd82.JPG",
+    "static/media/bootstrap-icons.woff?": "/OverReact-N/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/pix4.JPG": "/OverReact-N/static/media/pix4.9ca900c5a9c062ebd3f6.JPG",
+    "static/media/bootstrap-icons.woff2?": "/OverReact-N/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/FakeResume.JPG": "/OverReact-N/static/media/FakeResume.a0d07943498d1c0cb753.JPG",
+    "static/media/bio1.JPG": "/OverReact-N/static/media/bio1.b0c5df8fe73ed99a28fd.JPG",
+    "static/media/TDEI.JPG": "/OverReact-N/static/media/TDEI.63e94148554a39ae4ac6.JPG",
+    "static/media/NoFriends.JPG": "/OverReact-N/static/media/NoFriends.07e517db4e0c2abd4412.JPG",
+    "static/media/PWAText19Image.JPG": "/OverReact-N/static/media/PWAText19Image.6cf5045240f987abaeea.JPG",
+    "static/media/NoteTakerImage2.JPG": "/OverReact-N/static/media/NoteTakerImage2.becc0fc4717dc3afa5ad.JPG",
+    "static/media/PRMEGEN.JPG": "/OverReact-N/static/media/PRMEGEN.0f1674d4fc798e8ef5f9.JPG",
+    "static/media/ORM.JPG": "/OverReact-N/static/media/ORM.565e0ea138b03deece28.JPG",
+    "static/media/RLOGO1.JPG": "/OverReact-N/static/media/RLOGO1.cb118d9eeee73825b8b1.JPG",
+    "index.html": "/OverReact-N/index.html",
+    "main.af1c32c4.css.map": "/OverReact-N/static/css/main.af1c32c4.css.map",
+    "main.176499c1.js.map": "/OverReact-N/static/js/main.176499c1.js.map",
+    "787.dd76e75e.chunk.js.map": "/OverReact-N/static/js/787.dd76e75e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af1c32c4.css",
+    "static/js/main.176499c1.js"
+  ]
+}
