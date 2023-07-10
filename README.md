@@ -1,71 +1,107 @@
-# Getting Started with Create React App
+# Over React-N-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Welcome to the future of space exploration! As an employer looking for candidates with experience building single-page applications, you can view a potential employee's deployed React portfolio of work samples to assess whether they're a good candidate for an open position. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+When you load the portfolio, you will be presented with a page containing a header, a section for content, and a footer. The header will contain the developer's name and navigation with titles corresponding to different sections of the portfolio. The navigation titles will include About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section will be highlighted. When you click on a navigation title, you will be presented with the corresponding section below the navigation without the page reloading and that title will be highlighted. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+When you load the portfolio the first time, the About Me title and section will be selected by default. The About Me section will contain a recent photo or avatar of the developer and a short bio about them. The Portfolio section will contain titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository. The Contact section will contain a contact form with fields for a name, an email address, and a message. When you move your cursor out of one of the form fields without entering text, you will receive a notification that this field is required. When you enter text into the email address field, you will receive a notification if you have entered an invalid email address. 
 
-### `npm test`
+The Resume section will contain a link to a downloadable resume and a list of the developer’s proficiencies. The footer will contain text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter). 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Explore the depths of space with the help of this React portfolio and find the perfect candidate for your next space adventure!
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Table of Contents
 
-### `npm run eject`
+* [TITLE](#title)
+* [DESCRIPTION](#description)
+* [INSTALLATION](#installation)
+* [USAGE](#usage)
+* [BADGES](#badges)
+* [FEATURES](#features)
+* [CONTACT](#contact)
+* [GITHUB](#github)
+* [EMAIL](#email)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Instructions
+1. Clone the repository to your local machine
+2. Install the necessary dependencies by running `npm install` in the terminal
+3. Start the development server by running `npm start` in the terminal
+4. Make changes to the code and view the changes in the browser
+5. When you are ready to deploy, run `npm run build` to create a production build
+6. Deploy the build to GitHub Pages by running `npm run deploy` in the terminal
+7. Visit your deployed portfolio and share it with the world!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Usage
+Welcome to the future of space exploration! As a web developer, you need a place to showcase your projects and collaborate with fellow developers. With the React Portfolio, you can do just that.
 
-### Analyzing the Bundle Size
+To get started, you'll need to deploy the application to GitHub Pages. Follow the same instructions you used for the module project to create a build that you can deploy.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Once you've deployed the application, you'll be presented with a page containing a header, a section for content, and a footer. The header will include the developer's name and navigation with titles corresponding to different sections of the portfolio. The navigation titles will include About Me, Portfolio, Contact, and Resume.
 
-### Making a Progressive Web App
+The About Me section will include a recent photo or avatar of the developer and a short bio about them. The Portfolio section will include titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository. The Contact section will include a contact form with fields for a name, an email address, and a message. The Resume section will include a link to a downloadable resume and a list of the developer’s proficiencies. The footer will include text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start exploring the universe of space adventure with the React Portfolio today!
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## license
+MIT
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Features  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# OverReact-N
+Welcome to the future of space exploration! With the React Portfolio, you can showcase your projects and skills to employers and fellow developers alike.
+
+Header: The React Portfolio features a header with your name and navigation titles corresponding to different sections of the portfolio.
+
+Navigation: The navigation titles include About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
+
+About Me: The About Me section includes a recent photo or avatar of the developer and a short bio about them.
+
+Portfolio: The Portfolio section includes titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository.
+
+Contact: The Contact section includes a contact form with fields for a name, an email address, and a message.
+
+Resume: The Resume section includes a link to a downloadable resume and a list of the developer’s proficiencies.
+
+Footer: The Footer includes text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
+
+
+Getting Started: The React Portfolio is easy to get started with. You’ll use Create React App just as you did with your module project, but you should be aware of a few structural differences in the component hierarchy. Your portfolio should include a single Header component, a single Navigation component, a single Project component, and a single Footer component.
+
+## Contact
+Refer to GitHub and Gmail Links
+
+
+## GitHub
+GitHub: [ReidRym](https://github.com/ReidRym)
+
+
+## Email
+Email: [irishreid55@gmail.com](mailto:irishreid55@gmail.com);
+
+
+
+
+
+
+
+
+
