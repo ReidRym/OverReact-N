@@ -30,14 +30,15 @@ const NavBar = () => {
       >
         Ryan Reid
         <img
-          src={require("../images/war2.png")}
+          src={require("../images/RLOGO1.JPG")}
           alt=""
           style={{
             width: "100px",
             height: "80px",
             marginLeft: "50px",
-            border: "none",
-            boxShadow: "none",
+            border: "3px solid #000000",
+            boxShadow: "0px 0px 10px #000000",
+            borderRadius: "10px",
           }}
         />
       </Navbar.Brand>

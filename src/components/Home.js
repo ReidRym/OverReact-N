@@ -9,8 +9,8 @@ function Home() {
 
       </video>
       <div className=" home text-wrapper">
-<h1>Resume with back ground video</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nisi voluptatem. Aspernatur eius in quibusdam, expedita ab, ratione at deserunt dicta cupiditate impedit amet facere, fugiat inventore possimus corporis eaque!</p>
+<h1>Bring Your Vision to Life with Ryan Reid</h1>
+<p>Are you looking for a full stack web developer who is passionate about creating innovative and engaging web applications? Look no further than Ryan Reid! With a strong background in web development, Ryan has the skills and experience to bring your project to life. From developing custom websites to creating dynamic user interfaces, Ryan has the expertise to make your vision a reality. Take a look at Ryan's portfolio and see what he can do for you!</p>
  </div>
 </div>
   );

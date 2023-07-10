@@ -4,14 +4,14 @@ import Ryanpix from "../images/pix3.JPG";
 
 function Footer() {
   return (
-    <div className="footy">
+    <div className="footy" style={{ width: "100%" }}>
       <Parallax
         blur={{ min: -15, max: 15 }}
         bgImage={Ryanpix}
         bgImageAlt=""
         strength={-200}
       >
-        <div style={{ height: "10px", width: "5000px" }} />
+        <div style={{ height: "10px", width: "100%" }} />
 
         <ul>
           <li>
@@ -63,10 +63,6 @@ function Footer() {
           </li>
         </ul>
       </Parallax>
-      <style>
-        @media screen and (max-width: 768px) {"{"} .footy {"{"} display: none;
-        {"}"} {"}"}
-      </style>
     </div>
   );
 }

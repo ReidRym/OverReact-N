@@ -29,9 +29,18 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <span className="iconGrowth">
-                
                 <img src={NoteTakerImage} alt="Note Taker Image" />
                 Under Note Taker
+              </span>
+            </a>
+            <a
+              href="https://note-undertaker-challenge.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="iconGrowth">
+                <img src={NoteTakerImage} alt="Note Taker Image" />
+                (Heroku Link)
               </span>
             </a>
             <h3>
@@ -50,6 +59,7 @@ const Portfolio = () => {
                 PWA Text 19 Champ!
               </span>
             </a>
+
             <h3> ITS THE PROGRESSION WEB APPLICATION TEXT 19 CHAMPIONSHIP! </h3>
           </li>
           <li>
@@ -64,6 +74,19 @@ const Portfolio = () => {
                   alt="No Friends No Frowns NoSQL Image"
                 />
                 No Friends No Frowns NoSQL Champ!
+              </span>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/14gyY0uUGgSa6zcK6wUYnDO8qZo_c7PRS/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="iconGrowth">
+                <img
+                  src={NoFriendsNoFrownsNoSQLImage}
+                  alt="No Friends No Frowns NoSQL Image"
+                />
+                (Sample Video)
               </span>
             </a>
             <h3>
@@ -83,6 +106,19 @@ const Portfolio = () => {
                   alt="Professional README Generator Image"
                 />
                 Professional README Generator.
+              </span>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1PCx4xN96uJp8HGRB3xpRKdBgFzw3WVEC/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="iconGrowth">
+                <img
+                  src={ProfessionalREADMEGeneratorImage}
+                  alt="Professional README Generator Image"
+                />
+                (Walkthrough Video)
               </span>
             </a>
             <h3>
@@ -106,6 +142,19 @@ const Portfolio = () => {
                 SQL Track Dat Employee
               </span>
             </a>
+            <a
+              href="https://drive.google.com/file/d/17ObzJNSc6cofV5QN5NORANdHn0vYAnnn/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="iconGrowth">
+                <img
+                  src={SQLTrackDatEmployeeImage}
+                  alt="SQL Track Dat Employee Image"
+                />
+                (Walkthrough Video)
+              </span>
+            </a>
             <h3>
               This command-line application is designed to manage a company's
               employee database. It was built with Node.js, Inquirer, and MySQL
@@ -127,6 +176,19 @@ const Portfolio = () => {
                 I am ORM Less Challenge!
               </span>
             </a>
+            <a
+              href="https://drive.google.com/file/d/1r9cM-YyMk5EiHWAPKeLCdlZeAKAk7aNL/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="iconGrowth">
+                <img
+                  src={IamORMLessChallengeImage}
+                  alt="I am ORM Less Challenge Image"
+                />
+                (Walkthrough Video)
+              </span>
+            </a>
             <h3>
               This repository contains an Express.js API with a MySQL database
               for an e-commerce website. It uses the latest technologies to
@@ -139,8 +201,6 @@ const Portfolio = () => {
           <div style={{ height: "300px" }} />
         </ul>
       </Parallax>
-      
-
     </div>
   );
 };
