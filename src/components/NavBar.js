@@ -18,9 +18,10 @@ const NavBar = () => {
       <Navbar.Brand
         href="#"
         style={{
-          color: "#FF0000",
+          color: "green",
+          fontFamily: "Lux",
           fontWeight: "bold",
-          fontSize: "1.5rem",
+          fontSize: "2.5rem",
           textTransform: "uppercase",
           letterSpacing: "2px",
           border: "none",
@@ -29,11 +30,12 @@ const NavBar = () => {
       >
         Ryan Reid
         <img
-          src={require('../images/war2.png')}
+          src={require("../images/war2.png")}
           alt=""
           style={{
-            width: "30px",
-            marginLeft: "10px",
+            width: "100px",
+            height: "80px",
+            marginLeft: "50px",
             border: "none",
             boxShadow: "none",
           }}
