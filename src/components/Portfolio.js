@@ -9,6 +9,59 @@ import SQLTrackDatEmployeeImage from "../images/TDEI.JPG";
 import IamORMLessChallengeImage from "../images/ORM.JPG";
 
 const Portfolio = () => {
+  const projects = [
+    {
+      title: "Under Note Taker",
+      image: NoteTakerImage,
+      description:
+        "Note Taker is a web application that allows users to create and save notes.",
+      codeLink: "https://github.com/ReidRym/Under_NoteTaker_11",
+      deployedLink: "https://note-undertaker-challenge.herokuapp.com/",
+    },
+    {
+      title: "PWA Text 19 Champ!",
+      image: PWAText19Image,
+      description: "ITS THE PROGRESSION WEB APPLICATION TEXT 19 CHAMPIONSHIP!",
+      codeLink: "https://github.com/ReidRym/PWA_TEXT_19_CHAMP",
+    },
+    {
+      title: "No Friends No Frowns NoSQL Champ!",
+      image: NoFriendsNoFrownsNoSQLImage,
+      description:
+        "The API is built using a NoSQL database and provides routes for users and thoughts.",
+      codeLink: "https://github.com/ReidRym/NoFriendsNoFrownsNoSQL",
+      videoLink:
+        "https://drive.google.com/file/d/14gyY0uUGgSa6zcK6wUYnDO8qZo_c7PRS/view",
+    },
+    {
+      title: "Professional README Generator",
+      image: ProfessionalREADMEGeneratorImage,
+      description:
+        "Get ready to show off your work and create the perfect README with our GitHub Professional README Generator! Impress employers and developers with a well-crafted, articulate document crafted with our program.",
+      codeLink: "https://github.com/ReidRym/NoFriendsNoFrownsNoSQL",
+      videoLink:
+        "https://drive.google.com/file/d/1PCx4xN96uJp8HGRB3xpRKdBgFzw3WVEC/view",
+    },
+    {
+      title: "SQL Track Dat Employee",
+      image: SQLTrackDatEmployeeImage,
+      description:
+        "This command-line application is designed to manage a company's employee database. It was built with Node.js, Inquirer, and MySQL to provide an easy-to-use interface for non-developers to view and interact with information stored in the database.",
+      codeLink: "https://github.com/ReidRym/SQL_Dat_Employee",
+      videoLink:
+        "https://drive.google.com/file/d/17ObzJNSc6cofV5QN5NORANdHn0vYAnnn/view",
+    },
+    {
+      title: "I am ORM Less Challenge!",
+      image: IamORMLessChallengeImage,
+      description:
+        "This repository contains an Express.js API with a MySQL database for an e-commerce website. It uses the latest technologies to provide a secure and functional back-end.",
+      codeLink: "https://github.com/ReidRym/SQL_Dat_Employee",
+      videoLink:
+        "https://drive.google.com/file/d/1r9cM-YyMk5EiHWAPKeLCdlZeAKAk7aNL/view",
+    },
+  ];
+
   return (
     <div>
       <Parallax
@@ -22,180 +75,45 @@ const Portfolio = () => {
           Portfolio: Click Icon to see projects:
         </h1>
         <ul>
-          <li>
-            <a
-              href="https://github.com/ReidRym/Under_NoteTaker_11"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img src={NoteTakerImage} alt="Note Taker Image" />
-                Under Note Taker
-              </span>
-            </a>
-            <a
-              href="https://note-undertaker-challenge.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img src={NoteTakerImage} alt="Note Taker Image" />
-                (Heroku Link)
-              </span>
-            </a>
-            <h3>
-              Note Taker is a web application that allows users to create and
-              save notes.
-            </h3>
-          </li>
-          <li>
-            <a
-              href="https://github.com/ReidRym/PWA_TEXT_19_CHAMP"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img src={PWAText19Image} alt="PWA Text 19 Image" />
-                PWA Text 19 Champ!
-              </span>
-            </a>
-
-            <h3> ITS THE PROGRESSION WEB APPLICATION TEXT 19 CHAMPIONSHIP! </h3>
-          </li>
-          <li>
-            <a
-              href="https://github.com/ReidRym/NoFriendsNoFrownsNoSQL"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={NoFriendsNoFrownsNoSQLImage}
-                  alt="No Friends No Frowns NoSQL Image"
-                />
-                No Friends No Frowns NoSQL Champ!
-              </span>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/14gyY0uUGgSa6zcK6wUYnDO8qZo_c7PRS/view"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={NoFriendsNoFrownsNoSQLImage}
-                  alt="No Friends No Frowns NoSQL Image"
-                />
-                (Sample Video)
-              </span>
-            </a>
-            <h3>
-              The API is built using a NoSQL database and provides routes for
-              users and thoughts.
-            </h3>
-          </li>
-          <li>
-            <a
-              href="https://github.com/ReidRym/NoFriendsNoFrownsNoSQL"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={ProfessionalREADMEGeneratorImage}
-                  alt="Professional README Generator Image"
-                />
-                Professional README Generator.
-              </span>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1PCx4xN96uJp8HGRB3xpRKdBgFzw3WVEC/view"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={ProfessionalREADMEGeneratorImage}
-                  alt="Professional README Generator Image"
-                />
-                (Walkthrough Video)
-              </span>
-            </a>
-            <h3>
-              Get ready to show off your work and create the perfect README with
-              our GitHub Professional README Generator! Impress employers and
-              developers with a well-crafted, articulate document crafted with
-              our program.
-            </h3>
-          </li>
-          <li>
-            <a
-              href="https://github.com/ReidRym/SQL_Dat_Employee"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={SQLTrackDatEmployeeImage}
-                  alt="SQL Track Dat Employee Image"
-                />
-                SQL Track Dat Employee
-              </span>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/17ObzJNSc6cofV5QN5NORANdHn0vYAnnn/view"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={SQLTrackDatEmployeeImage}
-                  alt="SQL Track Dat Employee Image"
-                />
-                (Walkthrough Video)
-              </span>
-            </a>
-            <h3>
-              This command-line application is designed to manage a company's
-              employee database. It was built with Node.js, Inquirer, and MySQL
-              to provide an easy-to-use interface for non-developers to view and
-              interact with information stored in the database.
-            </h3>
-          </li>
-          <li>
-            <a
-              href="https://github.com/ReidRym/SQL_Dat_Employee"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={IamORMLessChallengeImage}
-                  alt="I am ORM Less Challenge Image"
-                />
-                I am ORM Less Challenge!
-              </span>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1r9cM-YyMk5EiHWAPKeLCdlZeAKAk7aNL/view"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="iconGrowth">
-                <img
-                  src={IamORMLessChallengeImage}
-                  alt="I am ORM Less Challenge Image"
-                />
-                (Walkthrough Video)
-              </span>
-            </a>
-            <h3>
-              This repository contains an Express.js API with a MySQL database
-              for an e-commerce website. It uses the latest technologies to
-              provide a secure and functional back-end.
-            </h3>
-          </li>
-
+          {projects.map(project => (
+            <li>
+              <a
+                href={project.codeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="iconGrowth">
+                  <img src={project.image} alt={project.title} />
+                  {project.title}
+                </span>
+              </a>
+              {project.deployedLink && (
+                <a
+                  href={project.deployedLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="iconGrowth">
+                    <img src={project.image} alt={project.title} />
+                    (Heroku Link)
+                  </span>
+                </a>
+              )}
+              {project.videoLink && (
+                <a
+                  href={project.videoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="iconGrowth">
+                    <img src={project.image} alt={project.title} />
+                    (Walkthrough Video)
+                  </span>
+                </a>
+              )}
+              <h3>{project.description}</h3>
+            </li>
+          ))}
           {/* content */}
 
           <div style={{ height: "300px" }} />
